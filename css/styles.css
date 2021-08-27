@@ -1,0 +1,293 @@
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.top-bar {
+  background-color: #f295b2;
+  color: #fff;
+  height: 50px;
+}
+
+.top-icon {
+  font-size: 1rem;
+  padding: 2px;
+  margin: 15px 0 20px 0;
+  color: #fff;
+}
+
+.top-contact {
+  margin-left: 2rem;
+}
+
+.top-socials {
+  text-align: right;
+  margin-right: 2rem;
+}
+
+#title {
+  background-color: #fff;
+  color: #A9003C;
+  margin-top: 0;
+}
+
+.title-image {
+  border-radius: 100%;
+}
+
+.container-fluid {
+  padding: 0 15% 3%;
+}
+
+h1 {
+  font-family: 'Lora', serif;
+  font-size: 3.5rem;
+  font-weight: 900;
+  line-height: 1.5;
+}
+
+hr {
+  width: 50px;
+}
+
+/* Navigation Bar */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Satisfy";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.logo {
+  width: 3%;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-Light";
+}
+
+/* Order Button */
+.order-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* About CSS */
+#about-us {
+  background-color: #FDF5E7;
+}
+
+.about-image {
+  display: block;
+  margin: 23% auto;
+  width: 100%;
+  padding: 10px;
+  border-radius: 30px;
+}
+
+.about-heading {
+  color: #A9003C;
+  font-family: "satisfy";
+  font-size: 3rem;
+  margin-top: 1.2rem;
+  padding-left: 10px;
+}
+
+.about-right {
+  text-align: justify;
+}
+
+.about-text {
+  font-family: "open Sans";
+}
+
+/* Our Services CSS  */
+.services-heading {
+  font-family: satisfy;
+  margin-top: 20px;
+  text-align: center;
+  color: #A9003C;
+}
+
+.service-box {
+  border: 1px dotted grey;
+  height: 150px;
+  width: 300px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-top: 10px;
+  margin-bottom: 22px;
+}
+
+.service-icon {
+  font-size: 2rem;
+  padding: 5px;
+}
+
+.service-box-title {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 6px;
+  margin-left: 6px;
+}
+
+.service-box:hover {
+  background-color: #DA6090;
+  border: none;
+  color: #fff;
+  transition: all 400ms linear 0s;
+}
+
+/* Our Works CSS */
+#works {
+  background-color: #FDF5E7;
+}
+
+.our-works-heading {
+  font-family: Satisfy;
+  color: #A9003C;
+}
+
+.card-title {
+  font-family: satisfy;
+  font-weight: bold;
+}
+
+.works-top {
+  margin-bottom: 20px;
+}
+
+.works-bottom {
+  margin-bottom: 20px;
+}
+
+/* Our team CSS */
+#our-team {
+  margin: 30px 0;
+}
+.team-heading{
+  font-family: "Satisfy";
+  color: #A9003C;
+  font-size: 4rem;
+}
+.team-image {
+  border-radius: 100%;
+  width: 50%;
+}
+
+.team-right {
+  text-align: center;
+}
+
+.team-title {
+  font-size: 1.5rem;
+}
+
+/* Parallax CSS */
+.scroll-text {
+  min-height: 450px;
+  background-image: url("../images/para.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  margin-bottom: 40px;
+}
+
+.overlay {
+  background-color: black;
+  height: 100%;
+  width: 100%;
+  opacity: 0.7;
+  position: absolute;
+  text-align: center;
+}
+
+.overlay-text {
+  color: #fff;
+  font-family: "Satisfy";
+  font-weight: 500;
+  font-size: 3.5rem;
+  line-height: 3rem;
+  margin: 90px auto;
+}
+
+/* Social Media CSS */
+.sm-box{
+  text-align: center;
+}
+.sm-icon{
+  background-color: #A9003C;
+  border: 3px solid;
+  border-radius: 100%;
+  color: #fff;
+  font-size: 22px;
+  height: 55px;
+  line-height: 50px;
+  width: 55px;
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+  transition: all 0.5s;
+}
+.sm-icon:hover{
+  background-color: transparent;
+  border: 3px solid;
+  border-color: #A9003C;
+  color:#A9003C;
+
+}
+/* Copyrighr CSS */
+.copyright-bar{
+background-color: #f295b2;
+color: #fff;
+height: 2.2rem;
+
+}
+.copyright-text{
+  padding: 5px;
+  text-align: center;
+  margin-bottom:  0;
+}
+/* Footer CSS */
+#footer{
+  background-color: #FDF5E7;
+}
+.footer-logo{
+  font-size: 0.8rem;
+  text-align: center;
+  padding: 1rem;
+}
+.logo-text{
+  color: #A9003C;
+  font-family: "Satisfy";
+}
+.footer-para{
+  margin-left: 20px;
+}
+.operating-text{
+  text-align: justify;
+  margin-top: 80px;
+  padding-left: 250px;
+}
+.footer-image{
+  width: 75px;
+  height: 112px;
+}
+.payment-methods{
+  text-align: center;
+  margin-top: 140px;
+}
+.payment-heading{
+  font-size: 16px;
+
+}
+.payment-icon{
+  font-size: 3rem;
+}
